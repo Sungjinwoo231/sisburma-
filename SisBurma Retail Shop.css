@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Jost", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #ffffff50;
+}
+.logo img{
+    max-width: 75px;
+    height: auto;
+}
+.navmenu {
+    display: flex;
+}
+.navmenu a{
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: red;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #2c2c2c;
+    font-size: 30px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.2);
+    color: #ee1c47;
+}
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 1001;
+    cursor: pointer;
+}
+.main-text{
+    color: #2c2c2c;
+    width: 760;
+    padding: 50 10 50 94;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgba(255, 255, 255, 0.504);
+}
+.main-text h1{
+    letter-spacing: 2;
+    color: crimson;
+    text-transform: uppercase;
+    font-size: 30;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/banner2.jpg);
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.main-button{
+    align-items: center;
+    display: flex;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    width: fit-content;
+    transition: all .42s ease;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+.main-button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+header.stickey{
+    background-color: #fff;
+    padding: 20px 50px;
+    transition: all .42s ease;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+section h3{
+    font-weight: 400;
+    color: #2c2c2c;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+section .center-text{
+    text-align: center;
+    padding: 5% 0px;
+    color: #2c2c2c;
+}
+section .center-text h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.center-text p{
+    font-size: 18;
+    font-weight: 300;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, auto));
+    gap: 2rem;
+    padding: 0% 10%;
+    color: #111;
+}
+.row{
+    position: relative;
+    transition: all .42s ;
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+.row img:hover{
+    transform: scale(0.9);
+}
+.more-option{
+    text-align: center;
+    padding: 1%;
+    text-transform: capitalize;
+    color: #2c2c2c;
+    transition: all.4s ease;
+    padding: 100px;
+}
+.more-option a{
+    color: #2c2c2c;
+}
+.more-option:hover{
+    transform: scale(1.2);
+    color: #ee1c47;
+}
+.heart-icon i{
+    transition: all.5s;
+    font-size: 20px;
+}
+.heart-icon i:hover{
+    color: #ee1c47;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    color: #2c2c2c;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%) ;
+}
+.about-us ul li a{
+    color: #2c2c2c;
+    font-weight: 300;
+    transition: all .4s ease;
+}
+.about-us ul li a:hover{
+    color:#ee1c47;
+    
+
+}
+.about-us ul li{
+    padding: 5px 0px;
+}
+.info ul li{
+    transition: all.4s ease;
+}
+.info ul li:hover{
+    transform: scale(1.2);
+}
+.info h2{
+    padding: 20px 0px;
+}
+
+section .email{
+    padding: 75px;
+    text-align: center;
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%) ;
+}  
+.info-s2 h2{
+    padding: 20px;
+
+} .info-s2 i{
+    
+    padding: 10px;
+    font-size: 30px;
+} 
